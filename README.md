@@ -1,4 +1,4 @@
-### Hi there 👋
+### KangSinJae PORTFOLIO
 
 #### 2023-06-13 : Project1(넥슨 브랜드 소개) 반응형 모바일 버전
 
