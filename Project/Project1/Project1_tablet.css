@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+@media (390px < width <= 820px){
+  /* 최상위 영역 */
+  header {
+    height: 1000px;
+    width: 100%;
+    background-color: #00a1e1;
+    position: relative;
+  }
+  header img {
+    width: 180px;
+    height: 50px;
+    object-fit: cover;
+    position: absolute;
+    left: 2%;
+    top: 30px;
+  }
+  header ul {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-family: Nexon Lv2 Gothic;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  header ul li {
+    border-bottom: 1.5px solid black;
+    text-align: right;
+    width: 180px;
+    padding: 10px 0 10px 10px;
+  }
+  header h1 {
+    width: 650px;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Nexon Lv2 Gothic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.8;
+  }
+  header h1 strong {
+    color: #fff;
+  }
+  header h2 {
+    position: absolute;
+    bottom: 0;
+    font-family: pretendard;
+    font-weight: 900;
+    font-size: 135px;
+    color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 0.7;
+  }
+  /* Main 1 */
+  .main1 {
+    height: 1000px;
+    width: 100%;
+    position: relative;
+  }
+  .main1-box {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main1-box li {
+    font-family: Nexon Lv2 Gothic;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    line-height: 120px;
+    padding: 5px;
+    border-radius: 1.5em;
+    width: 690px;
+    height: 120px;
+    margin: 40px auto;
+  }
+  .main1-box li::after {
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border: 33px solid transparent;
+    border-left: 33px solid #000;
+    border-top: 0px;
+  }
+  .main1-box li:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    left: 80%;
+    width: 0;
+    height: 0;
+    border: 33px solid transparent;
+    border-right: 33px solid #000;
+    border-top: 0px;
+  }
+  .main1 .main-txt-box {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Nexon Lv2 Gothic;
+    text-align: center;
+    font-size: 50px;
+    width: 800px;
+  }
+  .main-txt-box h1,
+  h2 {
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .main-txt-box h2::after {
+    content: '';
+    display: inline-block;
+    background-image: url(../Project1/images/넥슨\ 로고.png);
+    background-size: 100%;
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+    vertical-align: middle;
+    transform: translateX(-20%);
+    position: fixed;
+    bottom: -33%;
+  }
+  /* Main2 */
+  .main2 {
+    width: 100%;
+    height: 900px;
+  }
+  .main2 ul {
+    margin-top: 30px;
+  }
+  .main2 ul li {
+    font-family: Nexon Lv2 Gothic;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  .main2 .point li {
+    width: 15px;
+    height: 15px;
+    background-color: #8d8d8d;
+    border-radius: 50%;
+    margin: 60px auto;
+  }
+  .main2 .main2-txt strong {
+    background-color: rgba(0, 161, 225, 30%);
+  }
+  /* Game */
+  .game-box{
+    background-color: #000;
+    color: #fff;
+    height: 1450px;
+  }
+}
