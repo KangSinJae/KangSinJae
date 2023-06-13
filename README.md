@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-## 2023-06-13 : Project1(넥슨 브랜드 소개) 반응형 모바일 버전
+#### 2023-06-13 : Project1(넥슨 브랜드 소개) 반응형 모바일 버전
 
 <!--
 **KangSinJae/KangSinJae** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
