@@ -160,4 +160,208 @@
   .main2 .main2-txt strong {
     background-color: rgba(0, 161, 225, 30%);
   }
+/* Game */
+.game-box{
+  background-color: #000;
+  color: #fff;
+  height: 1450px;
+}
+.game-box .game-grid{
+  padding-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center
+
+}
+.game-img-box p{
+  color: #00A1E1;
+  font-family: Nexon Lv2 Gothic;
+  font-weight: 400;
+  font-size: 10px;
+  margin-top: 3px;
+}
+.game-img-box h2{
+  font-family: Nexon Lv2 Gothic;
+  font-weight: 700;
+  font-size: 18px;
+}
+.game-img-box img{
+  width: 165px; height: 165px;
+  border-radius: 10px;
+}
+.game-box .game-img-box{
+  width: 165px; height: 250px;
+}
+.game-box .game-btn{
+  background-color: #0D0D0D;
+  font-family: pretendard;
+  font-size: 13px;
+  font-weight: 400;
+  width: 120px; height: 30px;
+  line-height: 30px;
+  margin: 30px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Review-box */
+  .review-box{
+    background-color: #F2F2F2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .review-box .nexon-box{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .review-box .nexon-box .nexon-txt-box{
+    background-color: #fff;
+    width: 290px; height: 115px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+  .review-box .nexon-box .nexon-txt-box h2{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .review-box .nexon-box .nexon-txt-box h1{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  .review-box .user-box p{
+    font-family: pretendard;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .review-box .user-box .user-txt-box p{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .review-box .user-box .user-txt-box h2{
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .user-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+  }
+  .user-box:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .user-box .user-txt-box{
+    width: 290px; height: 230px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .user-box img{
+    width: 100px;
+    margin-left: 20px;
+  }
+  .user-box .user-txt-box h2{
+    width: 250px;
+    margin: 10px auto;
+  }
+  .user-box .user-txt-box p{
+    width: 250px;
+    margin: 5px auto;
+  }
+
+  /* Logo */
+  .logo-box{
+    height: 300px;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .logo-box p{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .logo-box h2{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .logo-box span{
+    color: #00A1E1;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .logo-img-box ul{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-img-box img{
+    width: 100px;
+  }
+  .logo-box .logo-txt{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+  }
+  /* Footer */
+  footer{
+    background-color: #000;
+    height: 300px;
+  }
+  footer h1{
+    color: #C3D600;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  footer h2{
+    color: #fff;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+  }
+  footer .footer-txt{
+    margin-top: 50px;
+    margin-left: 25px;
+    transform: translateY(20%);
+  }
+  footer menu{
+    display: flex;
+    color: #fff;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 25px;
+    transform: translateY(100%);
+  }
+  footer menu li{
+    margin-right: 15px;
+  }
 }
