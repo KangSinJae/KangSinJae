@@ -238,15 +238,10 @@
     font-size: 21px;
     font-weight: 700;
   }
-  .review-box .user-box p{
+  .review-box .user-box .user-txt-box p{
     font-family: pretendard;
     font-size: 15px;
-    font-weight: 400;
-  }
-  .review-box .user-box .user-txt-box p{
-    font-family: Nexon Lv2 Gothic;
-    font-size: 13px;
-    font-weight: 400;
+    font-weight: 200;
   }
   .review-box .user-box .user-txt-box h2{
     font-family: pretendard;
@@ -281,9 +276,17 @@
     width: 250px;
     margin: 10px auto;
   }
+  .user-box .user{
+    font-family: Nexon Lv2 Gothic;
+    font-size: 15px;
+    font-weight: 700;
+  }
   .user-box .user-txt-box p{
     width: 250px;
     margin: 5px auto;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 13px;
+    font-weight: 400;
   }
 
   /* Logo */
