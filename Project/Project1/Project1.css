@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (width <= 390px) {
+@media (min-width: 375px) {
   /* 최상위 영역 */
   header {
     height: 665px;
@@ -9,15 +9,15 @@
     position: relative;
   }
   header img {
-    width: 75px;
-    height: 25px;
+    width: 25vw;
     position: absolute;
     left: 2%;
-    top: 30px;
+    top: 4%;
+    object-fit: cover;
   }
   header ul {
     position: absolute;
-    right: 3%;
+    right: 2%;
     top: 3%;
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
@@ -26,18 +26,20 @@
   header ul li {
     border-bottom: 1.5px solid black;
     text-align: right;
-    width: 120px;
+    width: 30vw;
     padding: 10px 0 10px 10px;
   }
   header h1 {
     position: absolute;
-    top: 286px;
-    left: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
     font-size: 25px;
     line-height: 1.8;
     color: #000;
+
     white-space: nowrap;
   }
   header h1 strong {
@@ -66,7 +68,7 @@
 
   .main1-box {
     position: absolute;
-    top: 75px;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -81,12 +83,12 @@
     position: relative;
     background-color: #000;
     color: #fff;
-    line-height: 55px;
-    padding: 5px;
+    padding: 0.69vw;
     border-radius: 1.5em;
-    width: 345px;
-    height: 60px;
-    margin: 20px auto;
+    width: 90vw;
+    line-height: 14vw;
+    height: 15vw;
+    margin: 6vw auto;
   }
   .main1-box li::after {
     content: '';
@@ -95,19 +97,19 @@
     left: 10%;
     width: 0;
     height: 0;
-    border: 33px solid transparent;
-    border-left: 33px solid #000;
+    border: 4.58vw solid transparent;
+    border-left: 4.58vw solid #000;
     border-top: 0px;
   }
   .main1-box li:nth-child(2)::after {
     content: '';
     position: absolute;
     bottom: -30%;
-    left: 72%;
+    left: 80%;
     width: 0;
     height: 0;
-    border: 33px solid transparent;
-    border-right: 33px solid #000;
+    border: 4.58vw solid transparent;
+    border-right: 4.58vw solid #000;
     border-top: 0px;
   }
   .main1 .main-txt-box {
@@ -118,7 +120,7 @@
     font-family: Nexon Lv2 Gothic;
     text-align: center;
     font-size: 30px;
-    width: 300px;
+    width: 60vw;
   }
   .main-txt-box h1,
   h2 {
@@ -130,12 +132,12 @@
     display: inline-block;
     background-image: url(../Project1/images/넥슨\ 로고.png);
     background-size: 100%;
-    width: 100px;
-    height: 80px;
+    width: 30vw;
+    height: 30vw;
     vertical-align: middle;
     transform: translateX(-20%);
     position: fixed;
-    bottom: -25%;
+    bottom: -53%;
     object-fit: cover;
   }
 
@@ -145,33 +147,34 @@
     height: 600px;
   }
   .main2 ul {
-    margin-top: 30px;
+    margin-top: 10vw;
   }
   .main2 ul li {
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
     font-size: 25px;
-    margin-top: 25px;
+    margin-top: 10vw;
     text-align: center;
   }
   .main2 .point li {
-    width: 10px;
-    height: 10px;
+    width: 3vw;
+    height: 3vw;
     background-color: #8d8d8d;
     border-radius: 50%;
-    margin: 40px auto;
+    margin: 25px auto;
   }
   .main2 .main2-txt strong {
     background-color: rgba(0, 161, 225, 30%);
   }
   /* Game */
   .game-box {
+    margin-top: 20vw;
     background-color: #000;
     color: #fff;
-    height: 1450px;
+    height: 1350px;
   }
   .game-box .game-grid {
-    padding-top: 70px;
+    padding-top: 20vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -181,7 +184,7 @@
     font-family: Nexon Lv2 Gothic;
     font-weight: 400;
     font-size: 10px;
-    margin-top: 3px;
+    margin-top: 1vw;
   }
   .game-img-box h2 {
     font-family: Nexon Lv2 Gothic;
@@ -189,26 +192,26 @@
     font-size: 18px;
   }
   .game-img-box img {
-    width: 165px;
-    height: 165px;
-    border-radius: 10px;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 10%;
     object-fit: cover;
   }
   .game-box .game-img-box {
-    width: 165px;
-    height: 250px;
+    width: 40vw;
+    height: 60vw;
   }
   .game-box .game-btn {
     background-color: #242424;
     font-family: pretendard;
     font-size: 13px;
     font-weight: 400;
-    width: 120px;
-    height: 30px;
-    line-height: 30px;
-    margin: 30px auto;
+    width: 32vw;
+    height: 8vw;
+    line-height: 8vw;
+    margin: 10vw auto;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 5%;
   }
 
   /* Review-box */
