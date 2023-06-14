@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (390px < width <= 820px){
+@media (390px < width <= 820px) {
   /* 최상위 영역 */
   header {
     height: 1000px;
@@ -22,10 +22,10 @@
     top: 3%;
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
   }
   header ul li {
-    border-bottom: 1.5px solid black;
+    border-bottom: 2px solid black;
     text-align: right;
     width: 180px;
     padding: 10px 0 10px 10px;
@@ -163,9 +163,216 @@
     background-color: rgba(0, 161, 225, 30%);
   }
   /* Game */
-  .game-box{
+  .game-box {
     background-color: #000;
     color: #fff;
-    height: 1450px;
+    height: 2900px;
+    margin-top: 50px;
+  }
+  .game-box .game-grid {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .game-img-box img {
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .game-img-box p {
+    color: #00a1e1;
+    font-family: Nexon Lv2 Gothic;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .game-img-box h2 {
+    font-family: Nexon Lv2 Gothic;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .game-box .game-img-box {
+    width: 330px;
+    height: 500px;
+  }
+  .game-box .game-btn {
+    background-color: #242424;
+    font-family: pretendard;
+    font-size: 26px;
+    font-weight: 400;
+    width: 240px;
+    height: 60px;
+    line-height: 60px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /* Review-box */
+  .review-box {
+    background-color: #f2f2f2;
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  .review-box .nexon-box {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 15px;
+  }
+  .review-box .nexon-box .nexon-txt-box {
+    background-color: #fff;
+    width: 580px;
+    height: 230px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .review-box .nexon-box .nexon-txt-box h2 {
+    font-family: Nexon Lv2 Gothic;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .review-box .nexon-box .nexon-txt-box h1 {
+    font-family: Nexon Lv2 Gothic;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .review-box .user-box .user-txt-box p {
+    font-family: pretendard;
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .review-box .user-box .user-txt-box h2 {
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .user-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 45px auto;
+  }
+  .user-box:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  .user-box .user-txt-box {
+    width: 580px;
+    height: 460px;
+    border-radius: 40px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .user-box img {
+    width: 200px;
+    margin-left: 40px;
+  }
+  .user-box .user-txt-box h2 {
+    width: 500px;
+    margin: 20px auto;
+  }
+  .user-box .user {
+    font-family: Nexon Lv2 Gothic;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .user-box .user-txt-box p {
+    width: 450px;
+    margin: 10px auto;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  /* Logo */
+  .logo-box {
+    height: 600px;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .logo-box p {
+    font-family: Nexon Lv2 Gothic;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .logo-box h2 {
+    font-family: Nexon Lv2 Gothic;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .logo-box span {
+    color: #00a1e1;
+    font-family: Nexon Lv2 Gothic;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .logo-img-box ul {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-img-box img {
+    width: 200px;
+    object-fit: cover;
+  }
+  .logo-box .logo-txt {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+  }
+  /* Footer */
+  footer {
+    background-color: #000;
+    height: 550px;
+  }
+  footer h1 {
+    color: #c3d600;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 80px;
+  }
+  footer h2 {
+    color: #fff;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 80px;
+    margin: 0;
+  }
+  footer .footer-txt {
+    margin-top: 100px;
+    margin-left: 50px;
+    transform: translateY(20%);
+  }
+  footer menu {
+    display: flex;
+    color: #fff;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: translateY(100%);
+  }
+  footer menu li {
+    margin-right: 25px;
   }
 }

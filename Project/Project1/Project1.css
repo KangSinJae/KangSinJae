@@ -172,7 +172,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center
-
 }
 .game-img-box p{
   color: #00A1E1;
@@ -189,13 +188,13 @@
 .game-img-box img{
   width: 165px; height: 165px;
   border-radius: 10px;
-  
+  object-fit: cover;
 }
 .game-box .game-img-box{
   width: 165px; height: 250px;
 }
 .game-box .game-btn{
-  background-color: #0D0D0D;
+  background-color: #242424;
   font-family: pretendard;
   font-size: 13px;
   font-weight: 400;
