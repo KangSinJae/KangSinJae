@@ -2,8 +2,9 @@
 
 @media (min-width: 375px) {
   /* 최상위 영역 */
+  html{font-size: 15px;}
   header {
-    height: 665px;
+    height: 165vw;
     width: 100%;
     background-color: #00a1e1;
     position: relative;
@@ -21,10 +22,10 @@
     top: 3%;
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   header ul li {
-    border-bottom: 1.5px solid black;
+    border-bottom: 0.1rem solid black;
     text-align: right;
     width: 30vw;
     padding: 10px 0 10px 10px;
@@ -36,7 +37,7 @@
     transform: translateX(-50%);
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 1.8;
     color: #000;
 
@@ -50,7 +51,7 @@
     bottom: 0;
     font-family: pretendard;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 4.333rem;
     color: #fff;
     overflow: hidden;
     display: inline-block;
@@ -61,7 +62,7 @@
   }
   /* Main 1 */
   .main1 {
-    height: 590px;
+    height: 171vw;
     width: 100%;
     position: relative;
   }
@@ -79,12 +80,12 @@
     font-family: Nexon Lv2 Gothic;
     text-align: center;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.8rem;
     position: relative;
     background-color: #000;
     color: #fff;
     padding: 0.69vw;
-    border-radius: 1.5em;
+    border-radius: 1.5rem;
     width: 90vw;
     line-height: 14vw;
     height: 15vw;
@@ -119,13 +120,13 @@
     transform: translateX(-50%);
     font-family: Nexon Lv2 Gothic;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     width: 60vw;
   }
   .main-txt-box h1,
   h2 {
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 1rem;
   }
   .main-txt-box h2::after {
     content: '';
@@ -144,7 +145,7 @@
   /* Main2 */
   .main2 {
     width: 100%;
-    height: 600px;
+    height: 160vw;
   }
   .main2 ul {
     margin-top: 10vw;
@@ -152,7 +153,7 @@
   .main2 ul li {
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.667rem;
     margin-top: 10vw;
     text-align: center;
   }
@@ -161,7 +162,7 @@
     height: 3vw;
     background-color: #8d8d8d;
     border-radius: 50%;
-    margin: 25px auto;
+    margin: 1.667rem auto;
   }
   .main2 .main2-txt strong {
     background-color: rgba(0, 161, 225, 30%);
@@ -171,7 +172,7 @@
     margin-top: 20vw;
     background-color: #000;
     color: #fff;
-    height: 1350px;
+    height: 350vw;
   }
   .game-box .game-grid {
     padding-top: 20vw;
@@ -183,13 +184,13 @@
     color: #00a1e1;
     font-family: Nexon Lv2 Gothic;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 0.667rem;
     margin-top: 1vw;
   }
   .game-img-box h2 {
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   .game-img-box img {
     width: 40vw;
@@ -204,7 +205,7 @@
   .game-box .game-btn {
     background-color: #242424;
     font-family: pretendard;
-    font-size: 13px;
+    font-size: 0.867rem;
     font-weight: 400;
     width: 32vw;
     height: 8vw;
@@ -217,22 +218,23 @@
   /* Review-box */
   .review-box {
     background-color: #f2f2f2;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
+    height: 340vw;
   }
   .review-box .nexon-box {
     display: flex;
     justify-content: space-evenly;
     font-family: Nexon Lv2 Gothic;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 700;
-    margin-right: 15px;
+    margin-right: 10vw;
   }
   .review-box .nexon-box .nexon-txt-box {
     background-color: #fff;
-    width: 290px;
-    height: 115px;
-    border-radius: 20px;
+    width: 80vw;
+    height: 30vw;
+    border-radius: 4vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -240,30 +242,30 @@
   }
   .review-box .nexon-box .nexon-txt-box h2 {
     font-family: Nexon Lv2 Gothic;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     margin: 0;
   }
   .review-box .nexon-box .nexon-txt-box h1 {
     font-family: Nexon Lv2 Gothic;
-    font-size: 21px;
+    font-size: 1.4rem;
     font-weight: 700;
   }
   .review-box .user-box .user-txt-box p {
     font-family: pretendard;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 200;
   }
   .review-box .user-box .user-txt-box h2 {
     font-family: pretendard;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.333rem;
   }
   .user-box {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px auto;
+    margin: 1.333rem auto;
   }
   .user-box:nth-child(even) {
     display: flex;
@@ -271,9 +273,9 @@
     justify-content: space-evenly;
   }
   .user-box .user-txt-box {
-    width: 290px;
-    height: 230px;
-    border-radius: 20px;
+    width: 78vw;
+    height: 61vw;
+    border-radius: 10%;
     background-color: black;
     color: #fff;
     display: flex;
@@ -281,60 +283,61 @@
     justify-content: center;
   }
   .user-box img {
-    width: 100px;
-    margin-left: 20px;
+    width: 28vw;
+    margin-left: 1.333rem;
   }
   .user-box .user-txt-box h2 {
-    width: 250px;
-    margin: 10px auto;
+    width: 66vw;
+    margin: 0.667vw auto;
   }
   .user-box .user {
     font-family: Nexon Lv2 Gothic;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 700;
   }
   .user-box .user-txt-box p {
-    width: 250px;
-    margin: 5px auto;
+    width: 66vw;
+    margin: 0.333rem auto;
     font-family: Nexon Lv2 Gothic;
-    font-size: 13px;
+    font-size: 0.867rem;
     font-weight: 400;
   }
 
   /* Logo */
   .logo-box {
-    height: 300px;
+    height: 80vw;
     position: relative;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 1.333rem;
   }
   .logo-box p {
     font-family: Nexon Lv2 Gothic;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
   }
   .logo-box h2 {
     font-family: Nexon Lv2 Gothic;
-    font-size: 23px;
+    font-size: 1.533rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1.333rem;
   }
   .logo-box span {
     color: #00a1e1;
     font-family: Nexon Lv2 Gothic;
-    font-size: 23px;
+    font-size: 1.533rem;
     font-weight: 700;
   }
   .logo-img-box ul {
     position: absolute;
-    bottom: 0%;
+    top:  90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
   }
   .logo-img-box img {
-    width: 100px;
+    width: 28vw;
+    object-fit: cover;
   }
   .logo-box .logo-txt {
     width: 100%;
@@ -346,24 +349,24 @@
   /* Footer */
   footer {
     background-color: #000;
-    height: 300px;
+    height: 80vw;
   }
   footer h1 {
     color: #c3d600;
     font-family: pretendard;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.667rem;
   }
   footer h2 {
     color: #fff;
     font-family: pretendard;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.667rem;
     margin: 0;
   }
   footer .footer-txt {
-    margin-top: 50px;
-    margin-left: 25px;
+    margin-top: 3.333rem;
+    margin-left: 1.667rem;
     transform: translateY(20%);
   }
   footer menu {
@@ -371,12 +374,12 @@
     color: #fff;
     font-family: pretendard;
     font-weight: 700;
-    font-size: 15px;
-    margin-top: 30px;
-    margin-left: 25px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1.667rem;
     transform: translateY(100%);
   }
   footer menu li {
-    margin-right: 15px;
+    margin-right: 1rem;
   }
 }
