@@ -28,7 +28,10 @@
     border-bottom: 0.1rem solid black;
     text-align: right;
     width: 30vw;
-    padding: 10px 0 10px 10px;
+    padding: 0.667rem 0 0.667rem 0.667rem;
+  }
+  header ul li:first-child{
+    display: none;
   }
   header h1 {
     position: absolute;
@@ -40,7 +43,6 @@
     font-size: 1.5625rem;
     line-height: 1.8;
     color: #000;
-
     white-space: nowrap;
   }
   header h1 strong {
