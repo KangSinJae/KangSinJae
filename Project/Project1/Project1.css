@@ -128,22 +128,16 @@
   .main-txt-box h1,
   h2 {
     font-weight: 700;
-    margin-top: 1rem;
   }
-  .main-txt-box h2::after {
-    content: '';
-    display: inline-block;
-    background-image: url(../Project1/images/넥슨\ 로고.png);
-    background-size: 100%;
-    width: 30vw;
-    height: 30vw;
-    vertical-align: middle;
-    transform: translateX(-20%);
-    position: fixed;
-    bottom: -53%;
+  .main-txt-box span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-txt-box img{
+    width: 20vw;
     object-fit: cover;
   }
-
   /* Main2 */
   .main2 {
     width: 100%;
