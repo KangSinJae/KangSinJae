@@ -51,7 +51,7 @@ overflow-x:hidden;
   header h2 {
     position: absolute;
     bottom: 0;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 900;
     font-size: 9rem;
     color: #fff;
@@ -199,7 +199,7 @@ overflow-x:hidden;
   }
   .game-box .game-btn {
     background-color: #242424;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-size: 1.733rem;
     font-weight: 400;
     width: 31vw;
@@ -244,12 +244,12 @@ overflow-x:hidden;
     font-weight: 700;
   }
   .review-box .user-box .user-txt-box p {
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-size: 2rem;
     font-weight: 200;
   }
   .review-box .user-box .user-txt-box h2 {
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 700;
     font-size: 2.667rem;
   }
@@ -345,13 +345,13 @@ overflow-x:hidden;
   }
   footer h1 {
     color: #c3d600;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 700;
     font-size: 5.333rem;
   }
   footer h2 {
     color: #fff;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 700;
     font-size: 5.333rem;
     margin: 0;
@@ -364,7 +364,7 @@ overflow-x:hidden;
   footer menu {
     display: flex;
     color: #fff;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 700;
     font-size: 2rem;
     margin-top: 3.333rem;

@@ -43,8 +43,8 @@
   header h1 {
     position: absolute;
     top: 25%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 40%;
+    transform: translateX(-40%);
     font-family: Nexon Lv2 Gothic;
     font-weight: 700;
     font-size: 4rem;
@@ -56,7 +56,7 @@
   header h2 {
     position: absolute;
     bottom: 0;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 900;
     font-size: 20rem;
     color: #fff;
@@ -182,7 +182,7 @@
     height: 20vw;
     background-color: #0b2a4a;
     color: #fff;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 900;
     font-size: 2rem;
     text-align: center;
@@ -227,7 +227,7 @@
   }
   .game-box .game-btn {
     background-color: #242424;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-size: 1.3rem;
     font-weight: 400;
     width: 12vw;
@@ -240,7 +240,7 @@
   .game-box h3 {
     color: #2e2e2e;
     display: block;
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 900;
     font-size: 15rem;
     writing-mode: vertical-rl;
@@ -291,12 +291,12 @@
     font-weight: 700;
   }
   .review-box .user-box .user-txt-box p {
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-size: 2rem;
     font-weight: 200;
   }
   .review-box .user-box .user-txt-box h2 {
-    font-family: pretendard;
+    font-family: 'Pretendard';
     font-weight: 700;
     font-size: 2.667rem;
   }
@@ -338,7 +338,7 @@
     width: 40vw;
     margin: 1.333rem auto;
     font-family: Nexon Lv2 Gothic;
-    font-size: 1.733rem;
+    font-size: 3.733rem;
     font-weight: 400;
   }
   .nexon-box {
