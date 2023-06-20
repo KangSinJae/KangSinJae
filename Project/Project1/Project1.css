@@ -337,6 +337,9 @@
     align-items: center;
     width: 100%;
   }
+  .logo-img-box ul li:nth-child(n+4){
+    display: none;
+  }
   .logo-img-box img {
     width: 28vw;
     object-fit: cover;
@@ -360,16 +363,12 @@
     font-size: 2.667rem;
   }
   footer h2 {
+    width: 60vw;
     color: #fff;
     font-family: pretendard;
     font-weight: 700;
     font-size: 2.667rem;
     margin: 0;
-  }
-  footer .footer-txt {
-    margin-top: 3.333rem;
-    margin-left: 1.667rem;
-    transform: translateY(20%);
   }
   footer menu {
     display: flex;
@@ -381,7 +380,14 @@
     margin-left: 1.667rem;
     transform: translateY(100%);
   }
+  footer .footer-txt {
+    margin: 0;
+    width: 60vw;
+  }
   footer menu li {
     margin-right: 1rem;
+  }
+  footer h2 br {
+    display: none;
   }
 }
