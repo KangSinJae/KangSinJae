@@ -117,4 +117,147 @@ header .header_right .loading{
     }
 
 /* PROJECT */
-  
+  .project_container{
+    height: 920px;
+    overflow: hidden;
+  }
+  .project_container h2{
+    height: 120px;
+    line-height: 120px;
+    padding-left: 30px;   
+    font-size: 45px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  .project_container .project_box{
+    height: 800px;
+    display: flex;
+  }
+  .project_container .project_box .project_box_project{
+    border: 2px solid #000;
+  }
+  .project_container .project_box .project_box_project img{
+    width: 625px;
+    height: 720px;
+  }
+  .project_container .project_box .project_box_project .project_box_text {
+    font-size: 11px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: 400;
+    padding: 20px 15px;
+  }
+  .project_container .project_box .project_box_project .project_box_text h3{
+    font-size: 15px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* SKILLS */
+  .skill_container{
+    height: 1920px;
+  }
+  .skill_container h2{
+    height: 120px;
+    line-height: 120px;
+    padding-left: 30px;   
+    font-size: 45px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  .skill_container .skill-box{
+    height: 450px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .skill_container .skill-box h1{
+    font-family: 'Anton';
+    font-size: 90px;
+    margin-left: 30px;
+  }
+  .skill_container .skill-box ul{
+    margin-right: 30px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  /* ABOUT */
+  .about_container{
+    height: 740px;
+  }
+  .about_container h3{
+    height: 120px;
+    line-height: 120px;
+    /* padding-left: 30px; */
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  .about_container .about_box{
+    display: flex;
+  }
+  .about_container .about_box .about_box_left{
+    width: 50%;
+    height: 620px;
+    background-color: #889BF9;
+    border: 2px solid #000;
+  }
+  .about_container .about_box .about_box_right{
+    width: 50%;
+    height: 620px;
+    background-color: #fff;
+    border: 2px solid #000;
+  }
+
+  /* CONTACT */
+  footer{
+    height: 650px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+  }
+  footer h1{
+    text-align: center;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 450px;
+  }
+  footer ul{
+    position: absolute;
+    top: 50%;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  footer ul li{
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    line-height: 70px;
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  footer ul li img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
