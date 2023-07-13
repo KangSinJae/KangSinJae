@@ -1,10 +1,13 @@
 @charset "utf-8";
-
+/* 
+body{
+  overflow-x: hidden;
+} */
 /* 상단 메뉴바 */
 .global_nav{
   display: flex;
   position: fixed;
-  background-color: #fff;
+  background-color: #fef9f3;
   height: 85px;
   width: 100%;
   border-bottom: 2px solid #000;
@@ -14,14 +17,33 @@
 }
 .global_nav .global_menu{
   display: flex;
-  height: 50px;
-  line-height: 50px;
+  height: 85px;
+  line-height: 85px;
 }
 .global_nav .global_menu li{
+  text-align: center;
   margin: 0 35px;
   font-family: 'Gmarket Sans TTF';
   font-weight: bold;
   font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+.global_nav .global_menu li::after{
+  background:#e5855e;
+  bottom: 40%;
+  content: "";
+  height: 10%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: scaleY(0);
+  transform-origin: left bottom;
+  transition: all .6s cubic-bezier(.55,0,.1,1);
+  z-index: -1;
+}
+.global_nav .global_menu li:hover::after{
+  transform: scale(1);
 }
 .global_nav .global_menu li:nth-child(4){
   margin-right: 30px;
@@ -45,7 +67,7 @@ header{
 header .header_right{
   width: 50%;
   height: 965px;
-  /* background-color: aqua; */
+  background-color: #fef9f3;
   border-bottom: 2px solid #000;
   position: relative;
 }
@@ -96,7 +118,7 @@ header .header_right .loading{
 .progress_bar{
   width: 450px;
   height: 20px;
-  background-color: #e5eaef;
+  background-color: #fff;
   border: 1px solid #000;
   border-radius: 100px;
   position: relative;
@@ -120,6 +142,7 @@ header .header_right .loading{
   .project_container{
     height: 920px;
     overflow: hidden;
+    width: 100%;
   }
   .project_container h2{
     height: 120px;
@@ -129,23 +152,34 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     border-bottom: 2px solid #000;
+    background-color: #fef9f3;
   }
   .project_container .project_box{
     height: 800px;
     display: flex;
+    width: 100%;
   }
   .project_container .project_box .project_box_project{
     border: 2px solid #000;
+    background-color: #fef9f3;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
   }
   .project_container .project_box .project_box_project img{
-    width: 625px;
-    height: 720px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
   }
   .project_container .project_box .project_box_project .project_box_text {
     font-size: 11px;
     font-family: 'Gmarket Sans TTF';
     font-weight: 400;
     padding: 20px 15px;
+    margin: 0;
+    border-top: 2px solid #000;
+    height: 10%;
+    
   }
   .project_container .project_box .project_box_project .project_box_text h3{
     font-size: 15px;
@@ -157,6 +191,7 @@ header .header_right .loading{
   /* SKILLS */
   .skill_container{
     height: 1520px;
+    background-color: #fef9f3;
   }
   .skill_container h2{
     height: 120px;
@@ -179,6 +214,24 @@ header .header_right .loading{
     font-family: 'Anton';
     font-size: 90px;
     margin-left: 30px;
+    position: relative;
+    z-index: 2;
+  }
+  .skill_container .skill-box h1::before{
+    background:#e5855e;
+    bottom: 10%;
+    content: "";
+    height: 30%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    transform: scaleY(0);
+    transform-origin: left bottom;
+    transition: all .6s cubic-bezier(.55,0,.1,1);
+  }
+  .skill_container .skill-box h1:hover::before {
+    transform: scale(1)
   }
   .skill_container .skill-box ul{
     margin-right: 30px;
@@ -186,10 +239,14 @@ header .header_right .loading{
     font-weight: 400;
     font-size: 25px;
   }
+  .skill_container .skill-box ul li{
+    width: 640px;
+  }
 
   /* ABOUT */
   .about_container{
     height: 740px;
+    background-color: #fef9f3;
   }
   .about_container h3{
     height: 120px;
@@ -244,7 +301,7 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     font-size: 20px;
-    width: 20px;
+    width: 200px;
     height: 70px;
     border-radius: 40px;
     color: #000;
@@ -255,9 +312,30 @@ header .header_right .loading{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
   }
   footer ul li img{
     width: 35px;
     height: 35px;
     object-fit: cover;
   }
+  footer ul li::before{
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 40px;
+  }
+  footer ul li, footer ul li::before{
+    transition: all .6s cubic-bezier(.55,0,.1,1);
+  }
+  footer ul li:hover::before {
+    opacity: 1;
+    transform: translate(-.4rem,.4rem)
+}
+  footer ul li:hover {
+  transform: translate(.4rem,-.4rem);
+}

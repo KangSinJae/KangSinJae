@@ -6,23 +6,33 @@
   <title>KangSinJae PORTFOLIO</title>
   <!-- 리셋 -->
   <link rel="stylesheet" href="./Common/Style/reset.css">
-  <!-- CSS -->
-  <link rel="stylesheet" href="./index.css">
   <!-- FONT -->
   <link rel="stylesheet" href="./Common/Fonts/pretendard.css">
   <link rel="stylesheet" href="./Common/Fonts/GmarketSans.css">
   <link rel="stylesheet" href="./Common/Fonts/Anton-Regular.css">
+  <!-- Swiper-css -->
+  <link rel="stylesheet" href="./Common/Style/swiper-bundle.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./index.css">
+  <!-- jQuery -->
+  <script src="./Common/Style/jquery-3.7.0.min.js"></script>
+  <!-- Swiper Js -->
+  <script src="./Common/Style/swiper-bundle.min.js"></script>
+  <!-- js -->
+  <script defer src="./index.js"></script>
+  
 
+  <script src="./Common/"></script>
 </head>
 <body>
   <!-- 상단 메뉴바 -->
   <div class="global_nav">
     <div class="global_icon">아이콘자리</div>
     <menu class="global_menu">
-      <li><link rel="stylesheet" href="#">HOME</li>
-      <li><link rel="stylesheet" href="#">PROJECT</li>
-      <li><link rel="stylesheet" href="#">SKILLS</li>
-      <li><link rel="stylesheet" href="#">CONTACT</li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PROJECT</a></li>
+      <li><a href="#">SKILLS</a></li>
+      <li><a href="#">CONTACT</a></li>
     </menu>
   </div>
 
@@ -44,11 +54,11 @@
   </header>
 
   <!-- PROJECT -->
-  <div class="project_container">
+  <div class="project_container swiper-container">
     <h2>PROJECT</h2>
-    <div class="project_box">
+    <div class="project_box swiper-wrapper">
 
-      <div class="project_box_project">
+      <div class="project_box_project swiper-slide">
         <img src="https://placehold.co/625x720/1752b3/FFF" alt="프로젝트1 이미지">
         <div class="project_box_text">
           <h3>프로젝트명</h3>
@@ -56,21 +66,21 @@
         </div>
       </div>
 
-      <div class="project_box_project">
+      <div class="project_box_project swiper-slide">
         <img src="https://placehold.co/625x720/aee1f4/FFF" alt="프로젝트1 이미지">
         <div class="project_box_text">
           <h3>프로젝트명</h3>
           <p>프로젝트 설명</p>
         </div>
       </div>
-      <div class="project_box_project">
+      <div class="project_box_project swiper-slide">
         <img src="https://placehold.co/625x720/1ec9fe/FFF" alt="프로젝트1 이미지">
         <div class="project_box_text">
           <h3>프로젝트명</h3>
           <p>프로젝트 설명</p>
         </div>
       </div>
-      <div class="project_box_project">
+      <div class="project_box_project swiper-slide">
         <img src="https://placehold.co/625x720/dfe271/FFF" alt="프로젝트1 이미지">
         <div class="project_box_text">
           <h3>프로젝트명</h3>
@@ -109,7 +119,7 @@
     <div class="skill-box">
       <h1>GIT & GITHUB</h1>
       <ul>
-        <li>Git Bash, VScode를 사용하며, 프로젝트 버전관리 가능</li>
+        <li>Git Bash, VScode를 사용하여, 프로젝트 버전관리 가능</li>
         <li>Git Hub를 통해 원할한 협업 가능</li>
       </ul>
     </div>
