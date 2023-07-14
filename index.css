@@ -283,7 +283,7 @@ header .header_right .loading{
 
   /* CONTACT */
   footer{
-    height: 800px;
+    height: 1000px;
     background-color: #000;
     color: #fff;
     position: relative;
@@ -294,6 +294,7 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     font-size: 80px;
+    margin-top: 30px;
   }
   footer h2{
     height: 120px;
@@ -309,7 +310,7 @@ header .header_right .loading{
   footer .footer_contact{
     position: absolute;
     /* top: 50%; */
-    bottom: 0%;
+    bottom: 10%;
     display: flex;
     align-items: center;
     left: 50%;
