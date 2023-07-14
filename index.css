@@ -157,14 +157,17 @@ header .header_right .loading{
   .project_container .project_box{
     height: 800px;
     display: flex;
-    width: 100%;
+    width: 100vw;
   }
   .project_container .project_box .project_box_project{
-    border: 2px solid #000;
+    border-left: 2px solid #000;
     background-color: #fef9f3;
     height: 100%;
-    width: 100%;
+    width: 25%;
     overflow: hidden;
+  }
+  .project_container .project_box .project_box_project:nth-child(4){
+    border-right: 2px solid #000;
   }
   .project_container .project_box .project_box_project img{
     width: 100%;
@@ -201,10 +204,12 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+
   }
   .skill_container .skill-box{
     height: 350px;
-    border-top: 2px solid #000;
+    /* border-top: 2px solid #000; */
     border-bottom: 2px solid #000;
     display: flex;
     justify-content: space-between;
@@ -277,28 +282,40 @@ header .header_right .loading{
 
   /* CONTACT */
   footer{
-    height: 650px;
+    height: 800px;
     background-color: #000;
     color: #fff;
     position: relative;
+
   }
   footer h1{
     text-align: center;
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
-    font-size: 110px;
-    line-height: 450px;
+    font-size: 80px;
   }
-  footer ul{
+  footer h2{
+    height: 120px;
+    line-height: 120px;
+    padding-left: 30px;   
+    font-size: 45px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    background-color: #fef9f3;
+    color: #000;
+  }
+  footer .footer_contact{
     position: absolute;
-    top: 50%;
-    bottom: 20%;
+    /* top: 50%; */
+    bottom: 0%;
     display: flex;
     align-items: center;
     left: 50%;
     transform: translateX(-50%);
+    margin: 30px;
   }
-  footer ul li{
+  footer .footer_contact li{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     font-size: 20px;
@@ -315,12 +332,12 @@ header .header_right .loading{
     justify-content: space-evenly;
     position: relative;
   }
-  footer ul li img{
+  footer .footer_contact li img{
     width: 35px;
     height: 35px;
     object-fit: cover;
   }
-  footer ul li::before{
+  footer .footer_contact li::before{
     content: "";
     height: 100%;
     left: 0;
@@ -330,13 +347,63 @@ header .header_right .loading{
     border: 1px solid #fff;
     border-radius: 40px;
   }
-  footer ul li, footer ul li::before{
+  footer .footer_contact li, footer .footer_contact li::before{
     transition: all .6s cubic-bezier(.55,0,.1,1);
   }
-  footer ul li:hover::before {
+  footer .footer_contact li:hover::before {
     opacity: 1;
     transform: translate(-.4rem,.4rem)
 }
-  footer ul li:hover {
+  footer .footer_contact li:hover {
   transform: translate(.4rem,-.4rem);
 }
+
+  footer .about{
+    display: flex;
+    padding: 80px 50px;
+    justify-content: space-around;
+    align-items: normal;
+  }
+  footer .about .about_left_txt{
+    
+  }
+  footer .about_left_txt h3{
+    font-size: 80px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+  }
+  footer .about_left_txt h3 strong{
+    color: #5672FF;
+  }
+  footer .about_left_txt span{
+    font-size: 35px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: bold;
+  }
+  footer .about_left_txt p{
+    font-size: 30px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: light;
+  }
+  footer .about_right_txt h3{
+    font-size: 45px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: medium;
+    border-bottom: 2px solid #fff;
+    width: 600px;
+    padding: 10px 25px;
+  }
+   footer .about_right_txt .profile{
+    font-size: 27px;
+    font-family: 'Gmarket Sans TTF';
+    font-weight: 300;
+   }
+   footer .about_right_txt .profile li{
+    display: flex;
+    width: 600px;
+    padding: 10px 25px;
+    justify-content: space-between;
+   }
+   footer .about_right_txt .profile p{
+    text-align: right;
+   }
