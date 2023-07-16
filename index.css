@@ -166,6 +166,7 @@ header .header_right .loading{
     height: 100%;
     width: 25%;
     overflow: hidden;
+    position: relative;
   }
   .project_container .project_box .project_box_project:nth-child(4){
     border-right: 2px solid #000;
@@ -175,6 +176,7 @@ header .header_right .loading{
     height: 90%;
     object-fit: cover;
   }
+
   .project_container .project_box .project_box_project .project_box_text {
     font-size: 11px;
     font-family: 'Gmarket Sans TTF';
@@ -191,7 +193,21 @@ header .header_right .loading{
     font-weight: bold;
     margin-bottom: 10px;
   }
-
+  .project_tag{
+    display: flex;
+  }
+  .project_tag p{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 0 3px;
+  }
+  .project_tag p:first-child{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 0;
+  }
   /* SKILLS */
   .skill_container{
     height: 1520px;
