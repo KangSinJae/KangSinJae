@@ -7,7 +7,7 @@ body{
 .global_nav{
   display: flex;
   position: fixed;
-  background-color: #f7f7f7;
+  background-color: #FAFAFA;
   height: 85px;
   width: 100%;
   border-bottom: 2px solid #000;
@@ -67,7 +67,7 @@ header{
 header .header_right{
   width: 50%;
   height: 965px;
-  background-color: #f7f7f7;
+  background-color: #FAFAFA;
   border-bottom: 2px solid #000;
   position: relative;
 }
@@ -152,7 +152,8 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     border-bottom: 2px solid #000;
-    background-color: #f7f7f7;
+    background-color: #FAFAFA;
+    color: #000;
   }
   .project_container .project_box{
     height: 800px;
@@ -161,7 +162,7 @@ header .header_right .loading{
   }
   .project_container .project_box .project_box_project{
     border-left: 2px solid #000;
-    background-color: #f7f7f7;
+    background-color: #FAFAFA;
     height: 100%;
     width: 25%;
     overflow: hidden;
@@ -194,7 +195,7 @@ header .header_right .loading{
   /* SKILLS */
   .skill_container{
     height: 1520px;
-    background-color: #f7f7f7;
+    background-color: #FAFAFA;
   }
   .skill_container h2{
     height: 120px;
@@ -253,7 +254,7 @@ header .header_right .loading{
   /* ABOUT */
   .about_container{
     height: 740px;
-    background-color: #f7f7f7;
+    background-color: #FAFAFA;
   }
   .about_container h3{
     height: 120px;
@@ -304,7 +305,7 @@ header .header_right .loading{
     font-family: 'Gmarket Sans TTF';
     font-weight: bold;
     border-bottom: 2px solid #000;
-    background-color: #f7f7f7;
+    background-color: #FAFAFA;
     color: #000;
   }
   footer .footer_contact{
