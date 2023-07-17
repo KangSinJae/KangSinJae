@@ -1,8 +1,8 @@
 @charset "utf-8";
-/* 
+
 body{
-  overflow-x: hidden;
-} */
+  scroll-behavior: smooth;
+}
 /* 상단 메뉴바 */
 .global_nav{
   display: flex;
@@ -140,7 +140,7 @@ header .header_right .loading{
 
 /* PROJECT */
   .project_container{
-    height: 920px;
+    height: 1120px;
     overflow: hidden;
     width: 100%;
   }
@@ -156,7 +156,7 @@ header .header_right .loading{
     color: #000;
   }
   .project_container .project_box{
-    height: 800px;
+    height: 1000px;
     display: flex;
     width: 100vw;
   }
@@ -167,6 +167,7 @@ header .header_right .loading{
     width: 25%;
     overflow: hidden;
     position: relative;
+    border-bottom: 2px solid #000;
   }
   .project_container .project_box .project_box_project:nth-child(4){
     border-right: 2px solid #000;
@@ -200,13 +201,10 @@ header .header_right .loading{
     border: 1px solid #000;
     border-radius: 20px;
     padding: 5px 10px;
-    margin: 0 3px;
+    margin: 3px 10px;
   }
   .project_tag p:first-child{
-    border: 1px solid #000;
-    border-radius: 20px;
-    padding: 5px 10px;
-    margin: 0;
+    margin-left: 0;
   }
   /* SKILLS */
   .skill_container{

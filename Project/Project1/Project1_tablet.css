@@ -319,9 +319,13 @@ overflow-x:hidden;
     font-size: 3rem;
     font-weight: 700;
   }
-  .logo-img-box ul {
+  .logo-img-box{
     position: absolute;
-    bottom: 0%;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .logo-img-box ul {
     display: flex;
     justify-content: space-around;
     align-items: center;

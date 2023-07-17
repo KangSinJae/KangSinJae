@@ -329,19 +329,26 @@
     font-size: 1.533rem;
     font-weight: 700;
   }
-  .logo-img-box ul {
+  .logo-img-box{
     position: absolute;
-    top:  90%;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .logo-img-box ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
   }
+  .logo-img-box ul li{
+    margin: 0 3vw;
+  }
   .logo-img-box ul li:nth-child(n+4){
     display: none;
   }
   .logo-img-box img {
-    width: 28vw;
+    width: 25vw;
     object-fit: cover;
   }
   .logo-box .logo-txt {
