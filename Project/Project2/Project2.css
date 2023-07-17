@@ -91,9 +91,10 @@ header .header_left{
 header .header_left h1{
   font-size: 100px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 header .header_left p{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 30px;
 }
