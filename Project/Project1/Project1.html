@@ -1,257 +1,209 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta
-      property="og:url"
-      content="https://kangsinjae.github.io/KangSinJae/Project/Project1/Project1.html"
-    />
-    <meta property="og:title" content="Nexon Coporation" />
-    <meta
-      property="og:description"
-      content="넥슨의 최고의 재미와 최고의 경험을 위한 도전!"
-    />
-    <meta property="og:image" content="https://kangsinjae.github.io/KangSinJae/Project/Project1/images/ogimages.png"/>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta property="og:type" content="website" />
-    <meta name="viewport" content="width=device-width" />
-    <!-- 리셋 -->
-    <link rel="stylesheet" href="../../Common/Style/reset.css" />
-    <!-- 모바일 -->
-    <link rel="stylesheet" href="./Project1.css" />
-    <!-- 테블릿 -->
-    <link rel="stylesheet" href="./Project1_tablet.css">
-    <!-- PC -->
-    <link rel="stylesheet" href="./Project1_pc.css">
-    <!-- FONT -->
-    <link rel="stylesheet" href="../../Common/Fonts/pretendard.css" />
-    <link rel="stylesheet" href="../../Common/Fonts/NEXONFonts.css" />
-    <link rel="icon" href="./images/넥슨 로고.png">
-    <title>Project1</title>
-  </head>
-  <body>
-    <!-- 최상위 영역 -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>title</title>
+   <!-- 리셋 -->
+   <link rel="stylesheet" href="../../Common/Style/reset.css">
+  <!-- FONT -->
+    <link rel="stylesheet" href="./Common/Fonts/pretendard.css">
+    <link rel="stylesheet" href="./Common/Fonts/GmarketSans.css">
+    <link rel="stylesheet" href="./Common/Fonts/Anton-Regular.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- css -->
+    <link rel="stylesheet" href="./project1.css">
+  <!-- jQuery -->
+    <script src="../../Common/Style/jquery-3.7.0.min.js"></script>
+  <!-- js -->
+    <script defer src="./Project2.js"></script>
+</head>
+<body>
+    <!-- 상단 메뉴바 -->
+    <div class="global_nav">
+      <div class="global_icon">아이콘자리</div>
+      <menu class="global_menu">
+        <li><a href="../../index.html">HOME</a></li>
+        <li><a href="../../index.html#PROJECT">PROJECT</a></li>
+        <li><a href="../../index.html#SKILLS">SKILLS</a></li>
+        <li><a href="../../index.html#ABOUT">ABOUT</a></li>
+      </menu>
+    </div>
+
+    <!-- header -->
     <header>
-      <img src="./images/Corporate CI_가로.png" alt="헤더 로고 이미지" />
-      <ul>
-        <li>HOME</li>
-        <li>GAME</li>
-        <li>CONTACT</li>
-        <li>ABOUT</li>
-      </ul>
-      <h1>
-        게임을 사랑하는 회사 넥슨 <br /><strong>
-          최고의 재미와 경험을 위한 도전!</strong
-        >
-      </h1>
-      <h2>NEXON COPORATION</h2>
+      <div class="header_wrapper">
+        <div class="header_left">
+          <h1>NEXON</h1>
+          <p>반응형 웹 사이트</p>
+          <p>개인 작업 100%</p>
+          <ul class="tag">
+            <li>#HTML5</li>
+            <li>#CSS3</li>
+            <li>#JavaScript</li>
+            <li>#Responsive</li>
+            <li>#Redesign</li>
+          </ul>
+        </div>
+        <div class="header_right">
+          <img src="./images/headimg.png" alt="메인이미지">
+        </div>
+      </div>
     </header>
 
-    <!-- Main 1 -->
-    <div class="main1">
-      <ul class="main1-box">
-        <li>누구나,언제 어디서나, 쉽고 간편한 게임 환경을 제공해주는</li>
-        <li>유저를,게임을 이해하고,유저를 챙겨주는, 믿을 수 있는</li>
-        <li>게임을 다르게, 참신하게, 창의적으로 새롭게 시도하는</li>
+    <!-- OverView -->
+    <div class="overview">
+      <h2>OverView</h2>
+      <ul class="overview-list">
+        <li>
+          <h3>프로젝트 목표</h3>
+          <p>
+            기존 Nexon 회사 홈페이지는 게임 회사임에도 딱딱한 분위기였다.<br>
+            그런 홈페이지를 넥슨이 서비스하는 게임들과 유저들의 리뷰들로 새롭게<br>
+            리 디자인한다.
+          </p>
+        </li>
+        <li>
+          <h3>웹사이트 유형</h3>
+          <p>
+            -반응형 웹사이트<br>
+            PC: 1280px 이상<br>
+            Tablet: 760px 이상<br>
+            Mobile: 375px 이상<br>
+          </p>
+        </li>
       </ul>
-      <div class="main-txt-box">
-        <h1>이런 게임을 만드는</h1>
-        <span>
-        <h2>NEXON!</h2>
-        <img src="./images/넥슨 로고.png" alt="NEXON!">
-      </span>
-      </div>
     </div>
-    <!-- Main 2 -->
-    <div class="main2">
+
+    <!-- Problem&Solution -->
+    <div class="problem">
+      <div class="prosol">
+        <h2>Probelm&</h2>
+        <h2>Solution</h2>
+      </div>
+      <ul class="problem-list">
+        <li>
+          <h3>Problem</h3>
+          <p>
+            -  NEXON이 추구하는 바가 메인에 보이지 않으며, 주요 내용들이 숨겨져있다. <br>
+            -  홈페이지에서는 NEXON이 운영하는 게임을 볼 수 가없다. <br>
+            -  NEXON을 한번에 파악하기가 힘들다.
+          </p>
+        </li>
+        <li>
+          <h3>Solution</h3>
+          <p>
+            - NEXON이 추구하고자하는 바를 메인에 배치하였다. <br>
+            - 운영하고있는 대표적인 게임과 장르를 배치하여 한눈에 볼 수 있도록 하였다. <br>
+            - 유저들의 리뷰, 파트너사, 철학 등을 구간별로 나눠 배치하였다.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Design -->
+    <div class="design">
+      <h2>Design</h2>
+      <img src="./images/designimg.png" alt="디자인이미지">
+
+      <ul class="design-list">
+        <li class="keyword">
+          <h3>Keyword</h3>
+          <div class="circle">
+            <span>#캐쥬얼</span>
+            <span>#간단</span>
+          </div>
+        </li>
+        <li class="color">
+          <h3>Color</h3>
+          <div class="color-circle">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+          <div class="color-text">
+            <p>#00A1E1</p>
+            <p>#C3D600</p>
+            <p>#000000</p>
+          </div>
+        </li>
+        <li class="typo">
+          <h3>Typography</h3>
+          <div class="typo-list">
+            <img src="./images/nexonfont.png" alt="넥슨고딕">
+            <ul>
+              <li>Light</li>
+              <li>Regular</li>
+              <li>Medium</li>
+              <li>Bold</li>
+            </ul>
+            <img src="./images/pretendardfont.png" alt="프리텐다드">
+            <ul>
+              <li>Regular</li>
+              <li>Medium</li>
+              <li>Semi Bold</li>
+              <li>Black</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Publishing -->
+    <div class="pub">
+      <h2>Publishing</h2>
       <ul>
-        <li>AOS / MOBA</li>
-        <li>CASUAL / SPORTS</li>
-        <li>MMO RPG / RPG</li>
-        <li>FPS / PVP</li>
+        <li>- 미디어 쿼리를 이용한 반응형 웹 페이지 제작</li>
+        <li>- flex,grid,position을 이용한 레이아웃 구성</li>
+        <li>- Mouse Event 적용</li>
+        <li>- Scroll Event 적용</li>
       </ul>
-
-      <ul class="point">
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-
-      <ul class="main2-txt">
-        <li>다양한 장르와 새로운 시도</li>
-        <li>우수한 게임 콘텐츠를 통해</li>
-        <li><strong>글로벌 게임사로서의</strong></li>
-        <li>면모를 강화</li>
-      </ul>
-    </div>
-    <!-- Game -->
-    <div class="game-box">
-      <div class="game-grid">
-        <div class="game-img-box">
-          <img src="./images/던전앤파이터.png" alt="던전앤파이터 이미지" />
-          <h2>던전 앤 파이터</h2>
-          <p>액선 / RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/바람의 나라.png" alt="바람의 나라 이미지" />
-          <h2>바람의 나라</h2>
-          <p>캐주얼 / RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/엘소드.png" alt="엘소드 이미지" />
-          <h2>엘소드</h2>
-          <p>액선 / RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/마비노기.png" alt="마비노기 이미지" />
-          <h2>마비노기</h2>
-          <p>캐주얼 / RPG</p>
-        </div>
-        <div class="game-txt-box">
-          <p>MMO RPG <br> RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/메이플스토리2.png" alt="메이플스토리2 이미지" />
-          <h2>메이플스토리2</h2>
-          <p>액선 / RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/메이플스토리M.png" alt="메이플스토리M 이미지" />
-          <h2>메이플스토리M</h2>
-          <p>모바일 / RPG</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/서든어택.png" alt="서든어택 이미지" />
-          <h2>서든 어택</h2>
-          <p>액선 / FPS</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/더 파이널스.png" alt="버블파이터 이미지" />
-          <h2>더 파이널스</h2>
-          <p>액션 / FPS</p>
-        </div>
-        <div class="game-txt-box">
-          <p>FPS / PVP</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/버블파이터.png" alt="버블파이터 이미지" />
-          <h2>버블파이터</h2>
-          <p>캐주얼 / FPS</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/피파온라인.png" alt="피파온라인 이미지" />
-          <h2>FIFA ONLINE4</h2>
-          <p>전략 / SPORTS</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/테일즈런너.png" alt="피파온라인 이미지" />
-          <h2>테일즈런너</h2>
-          <p>액션 / SPORTS</p>
-        </div>
-        <div class="game-img-box">
-          <img src="./images/프리스타일2.png" alt="프리스타일2 이미지" />
-          <h2>프리스타일2</h2>
-          <p>액선 / SPORTS</p>
-        </div>
-        <div class="game-txt-box">
-          <p>CASUAL <br> SPORTS</p>
-        </div>
-      </div>
-      <h1 class="game-btn">게임 더보기</h1>
-      <h3>GAME</h3>
     </div>
 
     <!-- Review -->
-    <div class="review-box">
-      <div class="review-grid">
-      <div class="nexon-box">
-        <p>넥슨</p>
-        <div class="nexon-txt-box">
-          <h2>넥슨과 함께한 게임</h2>
-          <h1>즐거우셨나요?</h1>
-        </div>
-      </div>
-
-      <div class="user-box">
-        <p class="user">유저A</p>
-        <div class="user-txt-box">
-          <h2>던전 앤 파이터</h2>
+    <div class="review">
+      <h2>Review</h2>
+      <ul class="review-list">
+        <li>
+          <h3>어려웠던 부분</h3>
           <p>
-            저의 기대를 훨씬 뛰어 넘었으며, 베타로 플레이를 시작하면서부터,
-            지금에 이르기까지 캐릭터, 스킬 트리부터, pvp까지 모든것이 전보다
-            발전하였습니다.
+            반응형 웹사이트 제작이 처음이였기에 화면 크기에 따라서 구조가 바뀌며,<br>
+            서로간의 호환을 시키는데에 고생을 했었다.
           </p>
-        </div>
-      </div>
-
-      <div class="user-box">
-        <p class="user">유저B</p>
-        <div class="user-txt-box">
-          <h2>FIFA ONLINE4</h2>
           <p>
-            게임에 결함이 없는 것은 아니지만 기술적인 기능이 매우 유호하며, 게임
-            업데이트를 자주 하게되며, 그 내용 또한 매우 방대합니다.
+            각 버전마다 글씨 크기, 그리드, 이미지 갯수 등 여러가지 다른부분이 많아<br>
+            초기에 HTML 구조 짜는데에도 일반적인 페이지에 비해 시간이 배로 들었던것같다.
           </p>
-        </div>
-      </div>
-
-      <div class="user-box">
-        <p class="user">유저C</p>
-        <div class="user-txt-box">
-          <h2>마비노기</h2>
+        </li>
+        <li>
+          <h3>총평</h3>
           <p>
-            항상 되돌아가게되는 게임입니다. 활발하고 도움이 되는 작은 커뮤니티가
-            있으며, 많은 업데이트와 이벤트 또한 존재합니다, 그런 요소들을
-            친구들과 즐길 수 있는것이 매력입니다.
+            디자인부터 퍼블리싱까지 본격적으로 진행한 첫 프로젝트여서 헷갈리는 부분도 많았고,<br>
+            제대로 해결하고자하는 문제점을 해결하기가 많이 힘들었었다.<br>
+            그래도 계속 시도하며 반응형 웹과 구조에 대한 이해도가 많이 올라갔다.
           </p>
-        </div>
-      </div>
-
-      <div class="user-box">
-        <p class="user">유저D</p>
-        <div class="user-txt-box">
-          <h2>프리스타일2</h2>
           <p>
-            프리스타일2는 기존 타 게임의 스포츠를 아케이드 형식으로
-            잘풀어냈으며, 그만큼 진입장벽도 낮아 친구들과 가볍게 스포츠를
-            즐기기에 최적의 게임입니다.
+            이번 프로젝트를 통해 반응형 웹 제작에 대한 경험과 하나의 브랜드를 분석하고 그것을<br>
+            다시 풀어내는것 방식을 익히게 되었으며, 이 프로젝트는 추후 다른 프로젝트 진행시<br>
+            좋은경험이 되었다고 생각한다.
           </p>
-        </div>
-      </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- btn -->
+    <div class="btn_box">
+      <div class="btn">
+        <a href="https://drive.google.com/file/d/1XAts9FEMw0fJYRP52OCqrO00NAEZ4dCH/view?usp=sharing">View Site</a>
       </div>
     </div>
 
-    <!-- Logo -->
-    <div class="logo-box">
-      <div class="logo-txt">
-        <p>전 세계 게이머들에게 최고의 게임을 선사하기 위해</p>
-        <h2>넥슨과 함께 만들어가는</h2>
-        <span>전세계 100여개국 다양한 파트너사</span>
-      </div>
-      <div class="logo-img-box">
-        <ul>
-          <li><img src="./images/with-logo-1.png" alt="네오플" /></li>
-          <li><img src="./images/with-logo-4.png" alt="넥슨게임즈" /></li>
-          <li><img src="./images/with-logo-2.png" alt="엔진" /></li>
-          <li><img src="./images/with-logo-3.png" alt="미"></li>
-          <li><img src="./images/with-logo-5.png" alt="미"></li>
-        </ul>
-      </div>
+    <!-- moveTop -->
+    <div class="moveTop">
+      <span class="material-symbols-outlined">
+        expand_less
+        </span>
     </div>
-    <!-- Footer -->
-    <footer>
-      <div class="footer">
-      <div class="footer-txt">
-        <h1>NEXON</h1>
-        <h2>LET'S PLAY<br />TOGETHER</h2>
-      </div>
-      <menu>
-        <li>HOME</li>
-        <li>PORTFOLIO</li>
-        <li>CONTACT</li>
-        <li>ABOUT</li>
-      </menu>
-    </div>
-    </footer>
-  </body>
+
+</body>
 </html>
