@@ -61,7 +61,7 @@ body{
 /* header */
 header{
   display: flex;
-  height: 500px;
+  height: 30vw;
   border-bottom: 2px solid #000;
   align-items: center;
   justify-content: space-evenly;
@@ -73,9 +73,9 @@ header .header_wrapper{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 400px;
+  height: 25vw;
   position: absolute;
-  bottom: 8%;
+  bottom: 0%;
 }
 header .header_right{
   display: flex;
@@ -477,10 +477,10 @@ header .tag li:nth-child(4){
   height: 70px;
   line-height: 70px;
   text-align: center;
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 10%;
+  bottom: 1%;
   z-index: 99999;
   cursor: pointer;
 }
