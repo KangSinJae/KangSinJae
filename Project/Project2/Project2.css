@@ -127,7 +127,7 @@ header .tag li:nth-child(4){
   padding: 10vw;
 }
 .overview h2{
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 45px;
   font-weight: 900;
   position: relative;
@@ -177,7 +177,7 @@ header .tag li:nth-child(4){
   padding: 5vw 10vw;
 }
 .problem h2{
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 45px;
   font-weight: 900;
   position: relative;
@@ -225,7 +225,7 @@ header .tag li:nth-child(4){
   margin: 0 auto;
 }
 .ux h2{
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 45px;
   font-weight: 900;
   position: relative;
@@ -274,7 +274,7 @@ header .tag li:nth-child(4){
   margin: 0 auto;
 }
 .design h2{
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 45px;
   font-weight: 900;
   position: relative;
@@ -398,7 +398,7 @@ header .tag li:nth-child(4){
 }
 .typo .typo-list ul li{
   margin: 10px 0;
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 25px;
   font-weight: 400;
 }
@@ -418,7 +418,7 @@ header .tag li:nth-child(4){
   position: relative;
 }
 .review h2{
-  font-family: 'Pretendard';
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   font-size: 45px;
   font-weight: 900;
   position: relative;
