@@ -152,19 +152,28 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 .overview .overview-list li{
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 .overview .overview-list li{
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 160%;
 }
 .overview .overview-list li:first-child p{
-  margin: 30px 0;
+  margin: 10px 0;
+  margin-bottom: px;
+  line-height: 160%;
 }
+.overview .overview-list ul{
+  margin-top: 10px;
+}
+.overview .overview-list ul li{
+  margin-bottom: 10px;
+}
+
 
 /* Problem&Solution */
 .problem{
@@ -202,7 +211,7 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .problem .problem-list li{
   margin-bottom: 100px;
@@ -210,10 +219,8 @@ header .tag li:nth-child(4){
 .problem .problem-list li p{
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
-}
-.problem .problem-list li:first-child p{
-  margin: 30px 0;
+  line-height: 160%;
+  margin: 10px 0;
 }
 
 /* Design */
@@ -422,7 +429,7 @@ header .tag li:nth-child(4){
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 160%;
 }
 
 /* Review */
@@ -461,7 +468,7 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .review .review-list li{
   margin-bottom: 100px;
@@ -469,13 +476,15 @@ header .tag li:nth-child(4){
 .review .review-list li p{
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 160%;
 }
 .review .review-list li:first-child p{
-  margin: 30px 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .review .review-list li:nth-child(2) p{
   margin: 30px 0;
+  margin-top: 10px;
 }
 
 /* btn */

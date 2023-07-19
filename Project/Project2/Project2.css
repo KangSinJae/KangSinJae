@@ -154,7 +154,7 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .overview .overview-list li{
   margin-bottom: 100px;
@@ -163,9 +163,14 @@ header .tag li:nth-child(4){
   font-size: 18px;
   font-weight: 300;
   line-height: 150%;
+  width: 650px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+  line-height: 160%;
 }
 .overview .overview-list li:first-child p{
-  margin: 30px 0;
+  margin: 10px 0;
+  margin-bottom: 30px;
 }
 
 /* Problem&Solution */
@@ -174,7 +179,7 @@ header .tag li:nth-child(4){
   width: 90%;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 5vw 10vw;
+  padding: 10vw;
 }
 .problem h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -204,7 +209,6 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
 }
 .problem .problem-list li{
   margin-bottom: 100px;
@@ -212,16 +216,17 @@ header .tag li:nth-child(4){
 .problem .problem-list li p{
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 160%;
+  margin: 10px 0;
+  margin-bottom: 30px;
 }
 .problem .problem-list li:first-child p{
-  margin: 30px 0;
 }
 
 /* Ux Vision */
 .ux{
   width: 90%;
-  padding: 5vw 10vw;
+  padding: 10vw;
   margin: 0 auto;
 }
 .ux h2{
@@ -230,7 +235,7 @@ header .tag li:nth-child(4){
   font-weight: 900;
   position: relative;
   height: 55px;
-  width: 209px;
+  width: 220px;
 }
 .ux h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -270,7 +275,6 @@ header .tag li:nth-child(4){
 .design{
   width: 90%;
   padding: 5vw 10vw;
-  padding-top: 25vw;
   margin: 0 auto;
 }
 .design h2{
@@ -279,7 +283,7 @@ header .tag li:nth-child(4){
   font-weight: 900;
   position: relative;
   height: 55px;
-  width: 155px;
+  width: 255px;
 }
 .design h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -445,7 +449,6 @@ header .tag li:nth-child(4){
   font-size: 20px;
   font-weight: 700;
   color: #5672ff;
-  margin-bottom: 40px;
 }
 .review .review-list li{
   margin-bottom: 100px;
@@ -453,10 +456,9 @@ header .tag li:nth-child(4){
 .review .review-list li p{
   font-size: 18px;
   font-weight: 300;
-  line-height: 150%;
-}
-.review .review-list li:first-child p{
+  line-height: 160%;
   margin: 30px 0;
+  margin-top: 10px;
 }
 .review .review-list li:nth-child(3){
   margin: 25px 0;
