@@ -47,7 +47,7 @@ body{
   transform: scale(1);
 }
 .global_nav .global_menu li:nth-child(4){
-  margin-right: 30px;
+  margin-right: 1.5152vw;
 }
 .global_nav .global_icon{
   width: 7.576vw;
@@ -395,12 +395,12 @@ header .tag li:nth-child(4){
 .typo .typo-list{
   margin-top: 2.020vw;
   display: flex;
-  margin-left: 35px;
+  margin-left: 1.7677vw;
   align-items: center
 }
 .typo .typo-list ul{
-  margin-left: 45px;
-  width: 120px;
+  margin-left: 2.2727vw;
+  width: 6.0606vw;
 }
 .typo .typo-list ul li{
   margin: 10px 0;
@@ -488,10 +488,10 @@ header .tag li:nth-child(4){
 }
 .review h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 45px;
+  font-size: 2.7vw;
   font-weight: 900;
   position: relative;
-  height: 55px;
+  height: 2.7778vw;
 }
 .review h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -507,26 +507,26 @@ header .tag li:nth-child(4){
 }
 .review .review-list{
   font-family: 'Gmarket Sans TTF';
-  width: 800px;
-  padding-top: 30px;
+  width: 45.404vw;
+  padding-top: 1.515vw;
 }
 .review .review-list h3{
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: 700;
   color: #5672ff;
 }
 .review .review-list li{
-  margin-bottom: 100px;
+  margin-bottom: 4.404vw;
 }
 .review .review-list li p{
-  font-size: 18px;
+  font-size: 1.1vw;
   font-weight: 300;
   line-height: 160%;
-  margin: 30px 0;
-  margin-top: 10px;
+  margin: 1.5152vw 0;
+  margin-top: 0.505vw;
 }
 .review .review-list li:nth-child(3){
-  margin: 25px 0;
+  margin: 1.2626vw 0;
 }
 .btn_box{
   position: absolute;
@@ -540,9 +540,9 @@ header .tag li:nth-child(4){
   border: 2px solid #000;
   /* background-color: #ddd; */
   border-radius: 60px;
-  width: 200px;
-  height: 70px;
-  line-height: 70px;
+  width: 10.101vw;
+  height: 3.535vw;
+  line-height: 3.535vw;
   text-align: center;
   position: absolute;
   left: 50%;
@@ -552,12 +552,13 @@ header .tag li:nth-child(4){
   cursor: pointer;
 }
 .material-symbols-outlined {
- font-size: 70px;
+font-size: 3.3vw;
+text-align: center;
  border: 1px solid #000;
  border-radius: 50%;
  display: block;
- width: 70px;
- height: 70px;
+ width: 3.535vw;
+ height: 3.535vw;
  background-color: #fff;
  cursor: pointer;
 }
