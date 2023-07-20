@@ -9,7 +9,7 @@ body{
   display: flex;
   position: fixed;
   background-color: #FAFAFA;
-  height: 85px;
+  height: 4.3vw;
   width: 100%;
   border-bottom: 2px solid #000;
   align-items: center;
@@ -18,15 +18,15 @@ body{
 }
 .global_nav .global_menu{
   display: flex;
-  height: 85px;
-  line-height: 85px;
+  height: 4.3vw;
+  line-height: 4.3vw;
 }
 .global_nav .global_menu li{
   text-align: center;
-  margin: 0 35px;
+  margin: 0 1.8vw;
   font-family: 'Gmarket Sans TTF';
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.010vw;
   position: relative;
   z-index: 9999;
 }
@@ -50,19 +50,19 @@ body{
   margin-right: 30px;
 }
 .global_nav .global_icon{
-  width: 150px;
-  height: 50px;
+  width: 7.576vw;
+  height: 2.525vw;
   background-color: #ddd;
   text-align: center;
-  line-height: 50px;
-  margin-left: 30px;
+  line-height: 2.525vw;
+  margin-left: 1.515vw;
 }
 
 /* header */
 header{
   display: flex;
   height: 30vw;
-  border-bottom: 2px solid #000;
+  border-bottom: 0.101vw solid #000;
   align-items: center;
   justify-content: space-evenly;
   position: relative;
@@ -81,41 +81,41 @@ header .header_right{
   display: flex;
 }
 header .header_right img{
-  width: 200px;
-  height: 350px;
+  width: 10.101vw;
+  height: 17.677vw;
   object-fit: contain;
 }
 header .header_left{
   font-family: 'Gmarket Sans TTF';
 }
 header .header_left h1{
-  font-size: 100px;
+  font-size: 5.351vw;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.505vw;
 }
 header .header_left p{
-  font-size: 18px;
+  font-size: 1.1vw; /* 18px */
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 1.515vw;
 }
 header .header_left ul{
   display: flex;
-  font-size: 15px;
+  font-size: 0.9vw; /* 15px */
   font-weight: 300;
   flex-wrap: wrap;
-  width: 450px;
+  width: 28vw;
 }
 header .header_left ul li{
   border: 2px solid #000;
   border-radius: 30px;
-  padding: 10px 25px;
-  margin: 5px 10px;
+  padding: 0.505vw 1.263vw;
+  margin: 0.253vw 0.505vw;
 }
 header .tag li:first-child{
-  margin: 5px 0;
+  margin: 0.253vw 0;
 }
 header .tag li:nth-child(4){
-  margin: 5px 0;
+  margin: 0.253vw 0;
 }
 
 /* OverView */
@@ -128,10 +128,10 @@ header .tag li:nth-child(4){
 }
 .overview h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 45px;
+  font-size: 2.7vw;
   font-weight: 900;
   position: relative;
-  height: 55px;
+  height: 3.3vw;
 }
 .overview h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -147,30 +147,30 @@ header .tag li:nth-child(4){
 }
 .overview .overview-list{
   font-family: 'Gmarket Sans TTF';
-  width: 800px;
-  padding-top: 30px;
+  width: 40.404vw;
+  padding-top: 1.515vw;
 }
 .overview .overview-list h3{
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: 700;
   color: #5672ff;
   /* margin-bottom: 40px; */
 }
 .overview .overview-list li{
-  margin-bottom: 100px;
+  margin-bottom: 5.051vw;
 }
 .overview .overview-list li p{
-  font-size: 18px;
+  font-size: 1.1vw; /* 18px */
   font-weight: 300;
   line-height: 150%;
-  width: 650px;
-  margin: 10px 0;
+  width: 35.928vw;
+  margin: 0.505vw 0;
   margin-bottom: 30px;
   line-height: 160%;
 }
 .overview .overview-list li:first-child p{
-  margin: 10px 0;
-  margin-bottom: 30px;
+  margin: 0.505vw 0;
+  margin-bottom: 1.515vw;
 }
 
 /* Problem&Solution */
@@ -183,10 +183,10 @@ header .tag li:nth-child(4){
 }
 .problem h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 45px;
+  font-size: 2.7vw;
   font-weight: 900;
   position: relative;
-  height: 55px;
+  height: 3.3vw;
 }
 .problem h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -202,23 +202,23 @@ header .tag li:nth-child(4){
 }
 .problem .problem-list{
   font-family: 'Gmarket Sans TTF';
-  width: 800px;
-  padding-top: 30px;
+  width: 41.404vw;
+  padding-top: 1.515vw;
 }
 .problem .problem-list h3{
-  font-size: 20px;
+  font-size: 1.2vw;
   font-weight: 700;
   color: #5672ff;
 }
 .problem .problem-list li{
-  margin-bottom: 100px;
+  margin-bottom: 5.051vw;
 }
 .problem .problem-list li p{
-  font-size: 18px;
+  font-size: 1.1vw; /* 18px */
   font-weight: 300;
   line-height: 160%;
-  margin: 10px 0;
-  margin-bottom: 30px;
+  margin: 0.505vw 0;
+  margin-bottom: 1.515vw;
 }
 .problem .problem-list li:first-child p{
 }
@@ -231,11 +231,11 @@ header .tag li:nth-child(4){
 }
 .ux h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 45px;
+  font-size: 2.7vw;
   font-weight: 900;
   position: relative;
-  height: 55px;
-  width: 220px;
+  height: 3.3vw;
+  width: 13vw;
 }
 .ux h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -250,13 +250,13 @@ header .tag li:nth-child(4){
   z-index: -1;
 }
 .ux p{
-  font-size: 35px;
+  font-size: 2.008vw;
   font-family: 'Gmarket Sans TTF';
   font-weight: 500;
-  width: 900px;
+  width: 52.155vw;
   position: relative;
   margin: 0 auto;
-  margin-top: 190px;
+  margin-top: 9.596vw;
 }
 .ux p::after{
   background: rgba(86, 114, 255, 60%);
@@ -279,11 +279,11 @@ header .tag li:nth-child(4){
 }
 .design h2{
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 45px;
+  font-size: 2.7vw; /* 45px */
   font-weight: 900;
   position: relative;
-  height: 55px;
-  width: 255px;
+  height: 3.3vw;
+  width: 15.2vw;
 }
 .design h2::after{
   background: rgba(86, 114, 255, 60%);
@@ -299,14 +299,14 @@ header .tag li:nth-child(4){
 }
 .design_img{
   display: flex;
-  margin: 80px auto;
+  margin: 4.040vw auto;
   width: 80%;
 }
 .design_img img{
-  width: 200px;
-  height: 500px;
+  width: 10.101vw;
+  height: 25.253vw;
   object-fit: contain;
-  margin-right: 180px;
+  margin-right: 9.091vw;
 }
 .design-list{
   display: flex;
@@ -317,41 +317,41 @@ header .tag li:nth-child(4){
 }
 .design-list h3{
   font-family: 'Gmarket Sans TTF';
-  font-size: 25px;
+  font-size: 1.5vw;
   font-weight: 700;
 }
 .design-list li{
-  margin-right: 120px;
+  margin-right: 6.061vw;
 }
 .design-list li:nth-child(3){
   margin-right: 0;
 }
 .keyword span{
   font-family: 'Gmarket Sans TTF';
-  font-size: 25px;
+  font-size: 1.2vw;
   font-weight: 300;
-  width: 90px;
-  height: 90px;
+  width: 5.051vw;
+  height: 5.051vw;
   border: 1px solid #000;
   border-radius: 50%;
   display: block;
-  line-height: 90px;
+  line-height: 5.051vw;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 1.515vw;
 }
 .keyword .circle{
   display: flex;
-  margin-top: 40px;
-  margin-left: 35px;
+  margin-top: 2.020vw;
+  margin-left: 1.768vw;
 }
 .color span{
-  width: 90px;
-  height: 90px;
+  width: 4.545vw;
+  height: 4.545vw;
   border-radius: 50%;
   display: block;
   text-indent: -9999px;
   background-color: #6B99CF;
-  margin-top: 40px;
+  margin-top: 2.020vw;
   margin: 0 auto;
 }
 .color span:first{
@@ -360,41 +360,43 @@ header .tag li:nth-child(4){
 .color .color-circle{
   display: flex;
   flex-wrap: wrap;
-  width: 480px;
+  width: 24.242vw;
   justify-content: space-between;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 2.020vw;
 }
 .color .color-text{
   display: flex;
   flex-wrap: wrap;
-  width: 480px;
+  width: 24.242vw;
   justify-content: space-around;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0.758vw;
 }
 .color .color-circle p{
   text-align: center;
-  width: 100px;
-  height: 100px;
-  margin-top: 10px;
-  margin-right: 50px;
+  width: 5.051vw;
+  height: 5.051vw;
+  margin-top: 0.505vw;
+  margin-right: 2.525vw;
   font-family: 'Gmarket Sans TTF';
-  font-size: 15px;
+  font-size: 0.9vw;
   font-weight: 300;
   margin: 0 auto;
 }
 .color span:nth-child(2){background-color: #F9F2EB;}
 .color span:nth-child(3){background-color: #333333;}
+
 .typo .typo-list img{
-  width: 129px;
-  height: 185px;
+  width: 6.566vw;
+  height: 9.343vw;
   object-fit: contain;
 }
 .typo .typo-list{
-  margin-top: 40px;
+  margin-top: 2.020vw;
   display: flex;
   margin-left: 35px;
+  align-items: center
 }
 .typo .typo-list ul{
   margin-left: 45px;
@@ -403,13 +405,76 @@ header .tag li:nth-child(4){
 .typo .typo-list ul li{
   margin: 10px 0;
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-  font-size: 25px;
+  font-size: 1.2vw;
   font-weight: 400;
 }
 .typo .typo-list ul li:nth-child(2){font-weight: 500;}
 .typo .typo-list ul li:nth-child(3){font-weight: 600;}
 .typo .typo-list ul li:nth-child(4){font-weight: 700;}
 
+/* Wire Frame */
+.wire{
+  width: 90%;
+  padding: 5vw 10vw;
+  margin: 0 auto;
+  margin-top: 20vw;
+}
+.wire-list .wire-main img{
+  width: 11.6vw;
+  object-fit: cover;
+  margin: 0 0.5vw;
+}
+.wire h2{
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-size: 2.7vw;
+  font-weight: 900;
+  position: relative;
+  height: 3.178vw;
+  width: 15.279vw;
+}
+.wire h2::after{
+  background: rgba(86, 114, 255, 60%);
+  bottom: 10%;
+  content: "";
+  height: 40%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform-origin: left bottom;
+  transition: all .6s cubic-bezier(.55,0,.1,1);
+  z-index: -1;
+}
+.wire .wire-list{
+  margin: 4.040vw auto;
+}
+.wire .wire-list .wire-main{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 5.051vw 0;
+}
+.wire .wire-list .wire-main:first-child{
+  margin-top: 5.051vw;
+}
+.wire-list .wire-main ul{
+  margin: 0 3.3vw;
+  font-family: 'Gmarket Sans TTF';
+  width: 50.253vw;
+}
+.wire-list .wire-main h3{
+  font-size: 1.2vw;
+  font-weight: 700;
+  color: #5672ff;
+}
+.wire-list .wire-main p{
+  line-height: 160%;
+  font-size: 1.1vw;
+  font-weight: 300;
+  margin-top: 0.505vw;
+}
+.wire-list .library{
+  flex-direction: row-reverse;
+}
 /* Review */
 .review{
   display: flex;
@@ -417,7 +482,7 @@ header .tag li:nth-child(4){
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 10vw;
-  padding-top: 25vw;
+  padding-top: 10vw;
   padding-bottom: 20vw;
   position: relative;
 }
