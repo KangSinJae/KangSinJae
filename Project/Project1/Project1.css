@@ -326,6 +326,8 @@ header .tag li:nth-child(4){
   flex-wrap: wrap;
   width: 24.242vw;
   justify-content: space-around;
+  font-family: 'Gmarket Sans TTF';
+  font-weight: 300;
   text-align: center;
   margin-top: 0.758vw;
 }

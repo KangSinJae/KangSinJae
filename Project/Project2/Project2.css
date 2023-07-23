@@ -372,6 +372,8 @@ header .tag li:nth-child(4){
   justify-content: space-around;
   text-align: center;
   margin-top: 0.758vw;
+  font-family: 'Gmarket Sans TTF';
+  font-weight: 300;
 }
 .color .color-circle p{
   text-align: center;
