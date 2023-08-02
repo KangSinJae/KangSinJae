@@ -91,12 +91,12 @@ header .header_left h1:nth-child(2){
   bottom: 0;
 }
 header .header_right img{
-  width: 32.8283vw;
-  height: 32.8283vw;
+  width: 35.8283vw;
+  height: 35.8283vw;
   object-fit: cover;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1.5px solid #000;
